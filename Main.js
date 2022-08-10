@@ -360,7 +360,7 @@ function coalLuckMultiplier()
 
 function prestige()
 {
-    if(!confirm("这样做将重置您的进度。 你确定要这样做吗？\n（大约 5 ??? 推荐第一次）"))
+    if(!confirm("这样做将重置您的进度。 你确定要这样做吗？\n（推荐第一次重置是在大约 5 ??? ）"))
         return;
 
     state.prestige++;
